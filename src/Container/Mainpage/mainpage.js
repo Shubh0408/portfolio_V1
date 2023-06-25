@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavigationBar from "../../Component/Navbar/navbar";
+import Footer from "../../Component/Footer/footer";
 
 export default class extends Component {
     render() {
@@ -13,6 +14,7 @@ export default class extends Component {
                         lsyrfhwkfjn liwjfwiljf ljiejw uhubqwd audi uqdhoqudk udiwgduwhxwhdd  ouhqohoqhdd odhd
                     </p>
                 </div>
+                <Footer />
             </main>
         )
     }
