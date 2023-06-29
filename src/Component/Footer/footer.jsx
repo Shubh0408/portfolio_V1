@@ -14,12 +14,12 @@ export default class extends Component {
                 <span className="pt-2 justify-center text-xs text-white font-poppin sm:text-lg">Get in touch with me ➙ <a className="italic no-underline text-white">shubhamverma9982@gmail.com</a></span>
                 <span className="pt-1 justify-center text-teal-300">Or find me on: </span>
                 <div className="flex justify-center gap-6 hidden sm:flex">
-                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline" href="https://www.linkedin.com/in/shubham-verma-717331232/">Linkedin</a></div>
-                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline" href="https://codepen.io/shubh-v">Codepen</a></div>
-                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline" href="https://github.com/shubhamverma9982">Github</a></div>
-                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline" href="https://dev.to/shubh040810">Dev Community</a></div>
-                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline" href="https://twitter.com/Shubh040810">Twitter</a></div>
-                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline" href="https://www.instagram.com/shubham.040/">Instagram</a></div>
+                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline hover:not-italic" href="https://www.linkedin.com/in/shubham-verma-717331232/">Linkedin</a></div>
+                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline hover:not-italic" href="https://codepen.io/shubh-v">Codepen</a></div>
+                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline hover:not-italic" href="https://github.com/shubhamverma9982">Github</a></div>
+                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline hover:not-italic" href="https://dev.to/shubh040810">Dev Community</a></div>
+                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline hover:not-italic" href="https://twitter.com/Shubh040810">Twitter</a></div>
+                    <div className="italic"><a className="text-teal-300 hover:text-white no-underline hover:not-italic" href="https://www.instagram.com/shubham.040/">Instagram</a></div>
                 </div>
                 <div className="justify-center flex gap-2 sm:hidden">
                     <div><a className="text-teal-300 hover:text-white" href="https://www.linkedin.com/in/shubham-verma-717331232/"><LinkedInIcon/></a></div>
