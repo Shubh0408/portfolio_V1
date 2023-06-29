@@ -41,45 +41,45 @@ export default function Sidebar() {
         <html>
             <body id="body">
                 <nav className="sideNavbar">
-                    <div class="sidebar-top">
+                    <div className="sidebar-top">
                         <span id="expand-btn">
                             <ChevronLeftIcon />
                         </span>
                         <FitbitIcon />
-                        &emsp; <h3 class="hide">SHUBH</h3>
+                        &emsp; <h3 className="hide">SHUBH</h3>
                     </div>
                     <div id="sidebar-links">
                         <ul>
                             <li>
-                                <a href="/" class="active" title="Portfolio link">
-                                    <div class="icon">
+                                <a href="/" className="active" title="Portfolio link">
+                                    <div className="icon">
                                         <AccountBoxIcon />
                                     </div>
-                                    <span class="link hide">Portfolio</span>
+                                    <span className="link hide">Portfolio</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#analytics" title="Analytics link">
-                                    <div class="icon">
+                                    <div className="icon">
                                         <AnalyticsIcon />
                                     </div>
-                                    <span class="link hide">Analytics</span>
+                                    <span className="link hide">Analytics</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#dashboard" title="Performance link">
-                                    <div class="icon">
+                                    <div className="icon">
                                         <DashboardIcon />
                                     </div>
-                                    <span class="link hide">Performance</span>
+                                    <span className="link hide">Performance</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#reports" title="Reports Link">
-                                    <div class="icon">
+                                    <div className="icon">
                                         <FlagIcon />
                                     </div>
-                                    <span class="link hide">Reports</span>
+                                    <span className="link hide">Reports</span>
                                 </a>
                             </li>
                         </ul>

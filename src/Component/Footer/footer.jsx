@@ -1,19 +1,16 @@
 import React, { Component } from "react";
-// import "./footer.css";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LayersIcon from '@mui/icons-material/Layers';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Link } from "@mui/icons-material";
-
 
 export default class extends Component {
     render() {
         return (
             <main className="text-center bg-slate-600  ">
-                <h1 className="pt-4"><a className="text-teal-300 no-underline" href="/">𝕾𝖍𝖚𝖇𝖍</a></h1>
+                <h1 className="pt-4"><a className="text-slate-950 no-underline" href="/">𝕾𝖍𝖚𝖇𝖍</a></h1>
                 <span className="pt-2 justify-center text-xs text-white font-poppin sm:text-lg">Get in touch with me ➙ <a className="italic no-underline text-white">shubhamverma9982@gmail.com</a></span>
                 <span className="pt-1 justify-center text-teal-300">Or find me on: </span>
                 <div className="flex justify-center gap-6 hidden sm:flex">

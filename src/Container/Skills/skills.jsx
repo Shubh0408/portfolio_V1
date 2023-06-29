@@ -6,7 +6,7 @@ import Percentage from "./percentagecomponent";
 export default class extends Component {
     render() {
         return (
-            <div className="main sm:flex ">
+            <div className="main sm:flex " id="skills">
                 <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
                 {/* left container */}
                 <div className="right sm:w-1/2 bg-slate-700 h-auto">
@@ -45,23 +45,23 @@ export default class extends Component {
                     </div>
                     {/* Percentage bar mobile */}
                     <div className="">
-                        <div class="container text-white px-4 py-4 md:hidden">
-                            <div class="row  space-y-4">
+                        <div className="container text-white px-4 py-4 md:hidden">
+                            <div className="row  space-y-4">
                                 <div></div>
-                                <div class="col text-teal-300 italic">HTML&emsp;&emsp;<span className="text-sm text-white not-italic">80%</span></div>
-                                <div class="col text-teal-300 italic">CSS &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="w-100"></div>
-                                <div class="col text-teal-300 italic">Javascript &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="col text-teal-300 italic">React Js &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="w-100"></div>
-                                <div class="col text-teal-300 italic">Tailwind &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="col text-teal-300 italic">Bootstrap &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="w-100"></div>
-                                <div class="col text-teal-300 italic">GIT &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="col text-teal-300 italic">PHP &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="w-100"></div>
-                                <div class="col text-teal-300 italic">MySQL &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
-                                <div class="col text-teal-300 italic">Node Js &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="col text-teal-300 italic">HTML&emsp;&emsp;<span className="text-sm text-white not-italic">80%</span></div>
+                                <div className="col text-teal-300 italic">CSS &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="w-100"></div>
+                                <div className="col text-teal-300 italic">Javascript &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="col text-teal-300 italic">React Js &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="w-100"></div>
+                                <div className="col text-teal-300 italic">Tailwind &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="col text-teal-300 italic">Bootstrap &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="w-100"></div>
+                                <div className="col text-teal-300 italic">GIT &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="col text-teal-300 italic">PHP &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="w-100"></div>
+                                <div className="col text-teal-300 italic">MySQL &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
+                                <div className="col text-teal-300 italic">Node Js &emsp;&emsp;<span className="text-sm text-white">80%</span></div>
                             </div>
 
                         </div>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import landingprofile from "../../Assets/landing.png";
 import "./landingpage.css";
 
 export default class extends Component {
