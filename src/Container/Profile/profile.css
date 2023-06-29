@@ -1,0 +1,8 @@
+.landing {
+    background-image: url('../../Assets/landing.png');
+    background-size: cover;
+    height: calc(100vh - 88px);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}

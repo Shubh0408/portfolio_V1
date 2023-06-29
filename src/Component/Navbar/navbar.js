@@ -9,7 +9,7 @@ function NavigationBar(props) {
 
   return (
     <div>
-      <Navbar className='bg-teal-800' >
+      <Navbar className='bg-gray-800' >
         <NavbarBrand href="/" className="me-auto mx-8 text-3xl text-white">
         𝕾𝖍𝖚𝖇𝖍
         </NavbarBrand>
@@ -18,7 +18,7 @@ function NavigationBar(props) {
             <NavItem className='hidden mr-5 sm:flex gap-4  decoration-transparent'>
             <NavLink className='text-white' href="/components/">Home</NavLink>
             <NavLink className='text-white' href="/components/">Portfolio</NavLink>
-            <NavLink className='text-white' href="/components/">About</NavLink>
+            <NavLink className='text-white' href="/about/">About</NavLink>
             <NavLink className='text-white' href="/components/">Contact</NavLink>
             </NavItem>
             </Nav>
