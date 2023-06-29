@@ -4,9 +4,12 @@ import Mainpage from "./Container/Mainpage/mainpage";
 import Footer from "./Component/Footer/footer";
 import Sidebar from "./Component/Sidebar/sidebar";
 import Error from "./Container/Error/error";
-import About from "./Container/About/about";
 import Feature from "./Container/Feature/feature";
-import Profile from "./Container/Profile/profile";
+import Landingpage from "./Container/Landing/landingpage";
+import Skills from "./Container/Skills/skills";
+import Eduction from "./Container/Education/eduction";
+import NavigationBar from "./Component/Navbar/navbar";
+import Experience from "./Container/Education/experience";
 
 export default function AppRoute() {
     return (
@@ -14,11 +17,14 @@ export default function AppRoute() {
             <Routes>
                 <Route element={<Mainpage />} path="/" />
                 <Route element={<Error />} path="*" />
-                <Route element={<Footer />} path="/footer" />
-                <Route element={<Sidebar />} path="/sidebar" />
-                <Route element={<About />} path="/about" />
-                <Route element={<Feature />} path="/feature" />
-                <Route element={<Profile />} path="/profile" />
+                <Route element={<NavigationBar />} path="navigation" />
+                {/* <Route element={<Footer />} path="/footer" /> */}
+                {/* <Route element={<Sidebar />} path="/sidebar" /> */}
+                {/* <Route element={<Skills />} path="/skills" /> */}
+                {/* <Route element={<Feature />} path="/feature" /> */}
+                {/* <Route element={<Landingpage />} path="/Landingpage" /> */}
+                <Route element={<Eduction />} path="/education" />
+                <Route element={<Experience />} path="/exp" />
             </Routes>
         </BrowserRouter>
     )

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../../Assets/profile.jpeg";
-import "./about.css";
+import "./skills.css";
 import Percentage from "./percentagecomponent";
 
 export default class extends Component {
@@ -20,7 +20,8 @@ export default class extends Component {
                     {/* icons section  */}
                     {/* for icons ->  https://icon-sets.iconify.design/ */}
                     <div className="flex justify-center">
-                        <p className="mt-4">
+                        <p className="mt-4 space-x-3 md:space-x-7">
+                            <i></i>
                             <i class='bx bxl-html5 bx-lg  text-gray-400 hover:text-teal-400' title="HTML5"></i>
                             <i class='bx bxl-css3 bx-lg text-gray-400 hover:text-teal-400' title="CSS3"></i>
                             <i class='bx bxl-javascript bx-lg text-gray-400 hover:text-teal-400' title="JavaScript"></i>
