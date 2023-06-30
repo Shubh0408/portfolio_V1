@@ -10,8 +10,11 @@ import Skills from "./Container/Skills/skills";
 import Eduction from "./Container/Education/eduction";
 import NavigationBar from "./Component/Navbar/navbar";
 import Experience from "./Container/Education/experience";
-import Projects from "./Container/Portfolio/portfolio";
 import Portfolio from "./Container/Portfolio/portfolio";
+import Elements from "./Container/Elements/elements";
+import ElementsTemplate from "./Container/Elements/elementsTemplate";
+import Project from "./Container/Projects/project";
+import ProjectTemplate from "./Container/Projects/projectTemplate";
 
 export default function AppRoute() {
     return (
@@ -28,6 +31,10 @@ export default function AppRoute() {
                 <Route element={<Eduction />} path="/education" />
                 <Route element={<Experience />} path="/exp" />
                 <Route element={<Portfolio />} path="/portfolio" />
+                <Route element={<Elements />} path="/element" />
+                <Route element={<Project />} path="/projects" />
+                <Route element={<ProjectTemplate />} path="/projecttemplate" />
+                <Route element={<ElementsTemplate />} path="/elementtemplate" />
             </Routes>
         </BrowserRouter>
     )

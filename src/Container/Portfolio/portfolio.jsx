@@ -14,7 +14,7 @@ export default class extends Component {
                 </div>
                 {/* right */}
                 <div className="bg-gray-300 text-center sm:w-1/2">
-                    <a href="elements"><i class='bx bxs-file bx-lg text-gray-800 p-4'>
+                    <a href="element"><i class='bx bxs-file bx-lg text-gray-800 p-4'>
                         <div className="text-base font-bold tracking-wider">Elements</div>
                     </i></a>
                 </div>
