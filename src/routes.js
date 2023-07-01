@@ -15,6 +15,7 @@ import Elements from "./Container/Elements/elements";
 import ElementsTemplate from "./Container/Elements/elementsTemplate";
 import Project from "./Container/Projects/project";
 import ProjectTemplate from "./Container/Projects/projectTemplate";
+import Loader from "./Component/Loader/loader";
 
 export default function AppRoute() {
     return (
