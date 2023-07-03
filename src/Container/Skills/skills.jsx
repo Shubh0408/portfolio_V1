@@ -12,8 +12,8 @@ export default class extends Component {
                 <div className="right sm:w-1/2 bg-slate-700 h-auto">
                     <div className="top text-center pt-8 font-extrabold text-4xl text-blue-200"> About Me</div>
                     <section className="img mt-6 flex justify-center"><img src={logo} className="img rounded-full w-1/3" /></section>
-                    <div className="rest px-4 py-4 mt-12 font-poppin tracking-wide lg:tracking-widest lg:font-semibold text-white">I'm Shubham, a passionate web developer with 1 year of professional experience. I specialize in front-end development and have a strong foundation in HTML, CSS, and JavaScript. I enjoy crafting responsive and user-friendly websites that deliver an exceptional user experience.<br />I am proficient in using popular front-end frameworks like React and have a good understanding of modern web development practices.</div>
-                </div> 
+                    <div className="rest px-4 py-4 mt-12 text-sm md:text-lg font-poppin tracking-wide lg:tracking-widest lg:font-semibold text-white">I'm Shubham, a passionate web developer with 1 year of professional experience. I specialize in front-end development and have a strong foundation in HTML, CSS, and JavaScript. I enjoy crafting responsive and user-friendly websites that deliver an exceptional user experience.<br />I am proficient in using popular front-end frameworks like React and have a good understanding of modern web development practices.</div>
+                </div>
                 {/* right container */}
                 <div className="left sm:w-1/2 bg-slate-700 h-auto">
                     <div className="top text-center pt-8 font-extrabold text-4xl text-blue-200"> Skills</div>
@@ -44,30 +44,74 @@ export default class extends Component {
                         </p>
                     </div>
                     {/* Percentage bar mobile */}
-                    <div className="">
-                        <div className="container text-white px-4 py-4 md:hidden">
-                            <div className="row  space-y-4 pl-10" >
-                                <div></div>
-                                <div className="col text-teal-300">HTML&emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="col text-teal-300">CSS &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="w-100"></div>
-                                <div className="col text-teal-300">Javascript &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="col text-teal-300">React Js &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="w-100"></div>
-                                <div className="col text-teal-300">Tailwind &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="col text-teal-300">Bootstrap &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="w-100"></div>
-                                <div className="col text-teal-300">GIT &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="col text-teal-300">PHP &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="w-100"></div>
-                                <div className="col text-teal-300">MySQL &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                                <div className="col text-teal-300">Node Js &emsp;&emsp;<span className="text-sm text-white italic">80%</span></div>
-                            </div>
+                        <div className=" text-white px-4 py-4 space-y-4 sm:hidden">
+                            <div className="flex justify-around px-10" >
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="510" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle"  font-size="30" fill="#334155">HTML</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">95%</text>
+                                </svg>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="480" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">CSS</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">85%</text>
+                                </svg>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="450" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">Javascript</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">80%</text>
+                                </svg>
+                                </div>
 
+                            </div>
+                            <div className="flex justify-around px-10" >
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="480" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">React Js</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">85%</text>
+                                </svg></div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="480" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">Tailwind</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">85</text>
+                                </svg></div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="435" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">Bootstarp</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">83%</text>
+                                </svg></div>
+                            </div>
+                            <div className="flex justify-around px-10" >
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="470" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">PHP</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">84%</text>
+                                </svg></div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="480" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle"  font-size="30" fill="#334155">MySQL</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">85%</text>
+                                </svg></div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="90" fill="#E5E7EB" />
+                                    <circle cx="100" cy="100" r="85" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="385" stroke-dashoffset="0" transform="rotate(-90 100 100)" />
+                                    <text x="50%" y="50%" text-anchor="middle" font-size="30" fill="#334155">Node js</text>
+                                    <text x="50%" y="60%" text-anchor="middle" dy="7" font-size="18" fill="#334155">70%</text>
+                                </svg></div>
+                            </div>
                         </div>
-                    </div>
                     {/* Percentage bar large */}
-                    <div className="hidden md:block py-4">
+                    <div className="hidden sm:block py-4">
                         <div className="w"><Percentage skill="HTML" /></div>
                         <div className="w-11/12"><Percentage skill="CSS" /></div>
                         <div className="w-10/12"><Percentage skill="Javascript" /></div>
