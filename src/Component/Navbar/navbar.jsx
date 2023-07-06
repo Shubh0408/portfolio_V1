@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
-import resume from "../../Assets/Shubham_verma_Resume.pdf";
+import { Collapse, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler } from 'reactstrap';
+import resume from "../../Assets/shubham_verma_Resume.pdf";
 
 function NavigationBar(props) {
   const [collapsed, setCollapsed] = useState(true);
